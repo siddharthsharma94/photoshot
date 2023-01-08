@@ -47,7 +47,7 @@ export default function Footer() {
         align={{ base: "center", md: "center" }}
       >
         <Text></Text>
-        <Stack alignItems="center" direction="row" spacing={4}>
+        {/* <Stack alignItems="center" direction="row" spacing={4}>
           <Text fontSize="sm">
             <Link href="/terms">Terms and Privacy</Link>
           </Text>
@@ -70,7 +70,7 @@ export default function Footer() {
           >
             Photoshot.
           </Text>
-        </Stack>
+        </Stack> */}
       </Container>
     </Box>
   );

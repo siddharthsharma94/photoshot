@@ -67,6 +67,9 @@ export async function getServerSideProps(context: GetServerSidePropsContext) {
     orderBy: { createdAt: "desc" },
   });
 
+
+  console.log(project);
+  
   if (!project) {
     return {
       notFound: true,

@@ -171,6 +171,14 @@ const ProjectCard = ({
           </Text>
         </Center>
       )}
+
+      {project.modelStatus === "queued" && (
+        <Center marginX="auto">
+          <Text my={10} color="red.600" textAlign="center">
+            Your model is currently queued. Please wait
+          </Text>
+        </Center>
+      )}
     </Box>
   );
 };

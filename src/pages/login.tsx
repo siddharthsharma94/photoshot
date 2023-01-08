@@ -14,9 +14,9 @@ const Login = () => {
           <Heading>
             Check your email <Icon mb="-4px" as={MdCheckCircleOutline} />
           </Heading>
-          <Text mt={3} fontSize="2xl">
+          {/* <Text mt={3} fontSize="2xl">
             A <b>sign in link</b> has been sent to your email address.
-          </Text>
+          </Text> */}
         </Box>
       ) : (
         <AuthForm />
