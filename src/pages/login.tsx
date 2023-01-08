@@ -12,7 +12,7 @@ const Login = () => {
       {router.query.verifyRequest ? (
         <Box mx={{ base: 4, md: 0 }} textAlign="center">
           <Heading>
-            Check your email <Icon mb="-4px" as={MdCheckCircleOutline} />
+            Head over to dashboard <a href="/dashboard">here</a>
           </Heading>
           {/* <Text mt={3} fontSize="2xl">
             A <b>sign in link</b> has been sent to your email address.
